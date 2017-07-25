@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HookMutableDictionary_Example' do
+  pod 'HookMutableDictionary', :path => '../'
+
+  target 'HookMutableDictionary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
