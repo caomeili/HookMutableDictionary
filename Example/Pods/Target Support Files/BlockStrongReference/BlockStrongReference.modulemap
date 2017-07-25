@@ -1,0 +1,6 @@
+framework module BlockStrongReference {
+  umbrella header "BlockStrongReference-umbrella.h"
+
+  export *
+  module * { export * }
+}

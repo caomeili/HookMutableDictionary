@@ -1,0 +1,6 @@
+framework module Pods_HookMutableDictionary_Tests {
+  umbrella header "Pods-HookMutableDictionary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

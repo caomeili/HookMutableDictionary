@@ -1,0 +1,6 @@
+framework module HookMutableDictionary {
+  umbrella header "HookMutableDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}

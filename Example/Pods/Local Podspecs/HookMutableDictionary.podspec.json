@@ -1,0 +1,24 @@
+{
+  "name": "HookMutableDictionary",
+  "version": "1.0.1",
+  "summary": "A short description of HookDictionary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://www.ushareit.com",
+  "authors": {
+    "caomeili": "caoml@ushareit.com"
+  },
+  "source": {
+    "git": "git@192.168.250.71:shareCode/HookDictionary.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "HookMutableDictionary/Classes/**/*",
+  "public_header_files": "HookMutableDictionary/Classes/**/*.h",
+  "dependencies": {
+    "BlockStrongReference": [
+
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+PODS:
+  - BlockStrongReference (1.0.1)
+  - HookMutableDictionary (1.0.1):
+    - BlockStrongReference
+
+DEPENDENCIES:
+  - HookMutableDictionary (from `../`)
+
+EXTERNAL SOURCES:
+  HookMutableDictionary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlockStrongReference: bce6dfec2c53ce9c36b0362c1f9ce64db975183b
+  HookMutableDictionary: b1c617d1aa428e22f5825400033ebfb70792bdbf
+
+PODFILE CHECKSUM: 2842154702a358a782be2204360b2ac0239b3b1c
+
+COCOAPODS: 1.2.1

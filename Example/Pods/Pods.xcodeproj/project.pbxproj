@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CF68DE15A62341C767973328185FEE /* MutableDictionaryObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B9305D08F69A3D414604C6A190A708 /* MutableDictionaryObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3BBBC49D708BE8DD1B1B875C2F6AEE /* HookMutableDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A53920B736426EBDB163496E19AE61 /* HookMutableDictionary-dummy.m */; };
+		2A68C41BEE53C935369F971E6838DC69 /* Pods-HookMutableDictionary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E43DE3F4DBB77BB2763BDAF89E64E27F /* Pods-HookMutableDictionary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B6FD8966B85711B84AFA28F0C8FFC1 /* BlockStrongReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D41FCD9869F648B5590F249911AB312F /* BlockStrongReference.m */; settings = {COMPILER_FLAGS = "-ObjC -fno-objc-arc"; }; };
+		5FAFCBB636DC3BF77B46A7ED3A3E106C /* Pods-HookMutableDictionary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E50520555E464631EC07E3D79B231FBA /* Pods-HookMutableDictionary_Example-dummy.m */; };
+		64CF8850B7948A817A203A8644B87478 /* BlockStrongReference.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680DB9CEDB05E40F973D9BAAAF5B2290 /* BlockStrongReference.framework */; };
+		6D5CA86AC532EFFD89C91C3D9134E3BA /* BlockStrongReference-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3289A9BC37ED9FAEF679EE8B05D592F0 /* BlockStrongReference-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		868CA455370778BC81322F0E6F18270D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */; };
+		A29EFFC68981132302DF1C2A2CC976CE /* Pods-HookMutableDictionary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BEE412CD55CF5A05FB0A0726584768 /* Pods-HookMutableDictionary_Tests-dummy.m */; };
+		AAE2C11A9C37F7EE9B053A23078CB411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */; };
+		AC29901199E866675E26655B8511CE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */; };
+		D4AE999EE542BDA9C7B07EF4A468DEC1 /* NSMutableDictionary+HookC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F65308ACE938D4A825248523BC5D56 /* NSMutableDictionary+HookC.m */; };
+		D80F9C951FB8265143E0111BF7601C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */; };
+		DFBA00DF74E123FCA526948358DF1709 /* BlockStrongReference-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6198711AA222F48AD6F3AF07A61B16C /* BlockStrongReference-dummy.m */; };
+		E85A92C90939BA5EF61315415C63A2E5 /* MutableDictionaryObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3CC4CC91F82478DCE96F58F914D5EB /* MutableDictionaryObserver.m */; };
+		EC19AAA441DB754D8B7F31AE710CA776 /* Pods-HookMutableDictionary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB211F751716807D16CE36D5B94A32 /* Pods-HookMutableDictionary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB3200A24A6D2E737D1991A8F904EE7 /* NSMutableDictionary+HookC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4CEB5BA3C61E043A21AA969C3BEBB6 /* NSMutableDictionary+HookC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5626DF52E2FF22418FA171C17AB997 /* HookMutableDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B31140E4E15A035AFEEE88858A806A /* HookMutableDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB76D2C65967B613CDCCFCD2878A74AA /* BlockStrongReference.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DF3477DCAFBBF9C1850528FC21E17E /* BlockStrongReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302682C51673D6D1CF41D1F0378FEBB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C661BD3455F84DDF9FFBF3F3A1EBB738;
+			remoteInfo = BlockStrongReference;
+		};
+		3A14F3A52FE43D75A1DC2FC2EA3F9EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDDD23D6E8DE495A00796183140896E2;
+			remoteInfo = HookMutableDictionary;
+		};
+		E5E38433FD9098FFA6F0ABA8EE955AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C661BD3455F84DDF9FFBF3F3A1EBB738;
+			remoteInfo = BlockStrongReference;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004BE1E0128FB935A732614B87703F92 /* HookMutableDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HookMutableDictionary.modulemap; sourceTree = "<group>"; };
+		02EB211F751716807D16CE36D5B94A32 /* Pods-HookMutableDictionary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookMutableDictionary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		051AD4F9D7CEADBBC9C0619A0B9E6627 /* BlockStrongReference-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockStrongReference-prefix.pch"; sourceTree = "<group>"; };
+		0E2631F6679B1C053D5A7ED97A5423C2 /* Pods-HookMutableDictionary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookMutableDictionary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13B9305D08F69A3D414604C6A190A708 /* MutableDictionaryObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MutableDictionaryObserver.h; sourceTree = "<group>"; };
+		24E4F10C6946D28EEE43481E945829E7 /* Pods-HookMutableDictionary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HookMutableDictionary_Example.modulemap"; sourceTree = "<group>"; };
+		3289A9BC37ED9FAEF679EE8B05D592F0 /* BlockStrongReference-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockStrongReference-umbrella.h"; sourceTree = "<group>"; };
+		394DF07439D6BCD241B8F5AC096E0064 /* Pods-HookMutableDictionary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookMutableDictionary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		469CE023CF6F7683B1B390F7A0CFB58A /* BlockStrongReference.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlockStrongReference.xcconfig; sourceTree = "<group>"; };
+		480098D06E0DEE8E0E0BB5E7A0C1E5E9 /* HookMutableDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HookMutableDictionary.framework; path = HookMutableDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD4BF18B30EB93C14C3A91737BEBBC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F97FCF4057E80B60B3B7B4110DB2076 /* Pods_HookMutableDictionary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookMutableDictionary_Tests.framework; path = "Pods-HookMutableDictionary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC519CED83D6C80375DAFC3BEAB6707 /* Pods-HookMutableDictionary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookMutableDictionary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6032C3585764C295EF4EF5B4C1AF0A2A /* Pods-HookMutableDictionary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HookMutableDictionary_Tests-resources.sh"; sourceTree = "<group>"; };
+		60A25857D8AA5126F43F729B56ECB71F /* Pods-HookMutableDictionary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HookMutableDictionary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		66A53920B736426EBDB163496E19AE61 /* HookMutableDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HookMutableDictionary-dummy.m"; sourceTree = "<group>"; };
+		67F65308ACE938D4A825248523BC5D56 /* NSMutableDictionary+HookC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HookC.m"; sourceTree = "<group>"; };
+		680DB9CEDB05E40F973D9BAAAF5B2290 /* BlockStrongReference.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockStrongReference.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9139A336DFC1E28BC0755C1EE72A126F /* Pods_HookMutableDictionary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookMutableDictionary_Example.framework; path = "Pods-HookMutableDictionary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B4CEB5BA3C61E043A21AA969C3BEBB6 /* NSMutableDictionary+HookC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HookC.h"; sourceTree = "<group>"; };
+		A3A9B91A35DC3A2DE2D7E34953EE3D62 /* HookMutableDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HookMutableDictionary-prefix.pch"; sourceTree = "<group>"; };
+		A69218C1A245E921D4D077B95F3B1909 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A754295148039CD499DE4321BD05E007 /* Pods-HookMutableDictionary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookMutableDictionary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC3CC4CC91F82478DCE96F58F914D5EB /* MutableDictionaryObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MutableDictionaryObserver.m; sourceTree = "<group>"; };
+		AF773B0C231BC8C86B249B7905AA25CE /* Pods-HookMutableDictionary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookMutableDictionary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2853273361E68874D1B524D3EE4CA28 /* Pods-HookMutableDictionary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookMutableDictionary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3DF3477DCAFBBF9C1850528FC21E17E /* BlockStrongReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockStrongReference.h; path = BlockStrongReference/Classes/BlockStrongReference.h; sourceTree = "<group>"; };
+		C410AAE758FE73B2182ED93410151C9C /* Pods-HookMutableDictionary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HookMutableDictionary_Example-resources.sh"; sourceTree = "<group>"; };
+		C92DD88B76A7B982A1CB4F889BD19AD0 /* HookMutableDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookMutableDictionary.xcconfig; sourceTree = "<group>"; };
+		D3B31140E4E15A035AFEEE88858A806A /* HookMutableDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HookMutableDictionary-umbrella.h"; sourceTree = "<group>"; };
+		D41FCD9869F648B5590F249911AB312F /* BlockStrongReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlockStrongReference.m; path = BlockStrongReference/Classes/BlockStrongReference.m; sourceTree = "<group>"; };
+		D63BE67B9A03353A237AD2A95CF63833 /* Pods-HookMutableDictionary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookMutableDictionary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1235D908BE41213B89346438A9E4D4 /* Pods-HookMutableDictionary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookMutableDictionary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DFC5C729109875E828C84FD599CA15E3 /* Pods-HookMutableDictionary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HookMutableDictionary_Tests.modulemap"; sourceTree = "<group>"; };
+		E3BEE412CD55CF5A05FB0A0726584768 /* Pods-HookMutableDictionary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookMutableDictionary_Tests-dummy.m"; sourceTree = "<group>"; };
+		E43DE3F4DBB77BB2763BDAF89E64E27F /* Pods-HookMutableDictionary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookMutableDictionary_Example-umbrella.h"; sourceTree = "<group>"; };
+		E50520555E464631EC07E3D79B231FBA /* Pods-HookMutableDictionary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookMutableDictionary_Example-dummy.m"; sourceTree = "<group>"; };
+		E6198711AA222F48AD6F3AF07A61B16C /* BlockStrongReference-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlockStrongReference-dummy.m"; sourceTree = "<group>"; };
+		EA99A204E2A19537BDAFD1FF8F50A4C6 /* BlockStrongReference.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BlockStrongReference.modulemap; sourceTree = "<group>"; };
+		EB1F3B02A22AC35E3317B5F6587D19DB /* Pods-HookMutableDictionary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HookMutableDictionary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EB2B473FC2463F3771EEFE7D10EA4168 /* BlockStrongReference.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlockStrongReference.framework; path = BlockStrongReference.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D88B2D0E405428954AAD002BA5DADC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9004C517782792B71859E8D81C509A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23CAE28C49E939D6F8A442D1E5C5B3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80F9C951FB8265143E0111BF7601C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96F1825605012C399110A29DDEACF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF8850B7948A817A203A8644B87478 /* BlockStrongReference.framework in Frameworks */,
+				AC29901199E866675E26655B8511CE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D033AB7DF88B806D2C69A80CF0A55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868CA455370778BC81322F0E6F18270D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47D29A03075649458879DDA6BF8ADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE2C11A9C37F7EE9B053A23078CB411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDA7D8DAE8C70F3C39133D4D3BBC990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680DB9CEDB05E40F973D9BAAAF5B2290 /* BlockStrongReference.framework */,
+				515C1500F8462CFC37B20E0D5C6E9368 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		248F988309D452A7D9B51505E12795C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB3445E94B3587766BFFF35296DE2E5C /* HookMutableDictionary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		24A63643D83BB8CECF71FFDEB8EBB6A0 /* BlockStrongReference */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF3477DCAFBBF9C1850528FC21E17E /* BlockStrongReference.h */,
+				D41FCD9869F648B5590F249911AB312F /* BlockStrongReference.m */,
+				B85076FBA724853C7ADD60BA52FA65AA /* Support Files */,
+			);
+			name = BlockStrongReference;
+			path = BlockStrongReference;
+			sourceTree = "<group>";
+		};
+		3DA308728A8EFCDD177EA318824CE13C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C477039BC6DB37F4418EB9FFD08E841E /* Pods-HookMutableDictionary_Example */,
+				9BB3CF2579CE9A7BAF3DF6783FBBFB99 /* Pods-HookMutableDictionary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42E8C3232DB16036F74E731B84185737 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13B9305D08F69A3D414604C6A190A708 /* MutableDictionaryObserver.h */,
+				AC3CC4CC91F82478DCE96F58F914D5EB /* MutableDictionaryObserver.m */,
+				9B4CEB5BA3C61E043A21AA969C3BEBB6 /* NSMutableDictionary+HookC.h */,
+				67F65308ACE938D4A825248523BC5D56 /* NSMutableDictionary+HookC.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48D4A57841642ACCDBA40F1B57906E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A63643D83BB8CECF71FFDEB8EBB6A0 /* BlockStrongReference */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		515C1500F8462CFC37B20E0D5C6E9368 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3968E6F41E72B382E2348008FE839DD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				248F988309D452A7D9B51505E12795C0 /* Development Pods */,
+				1DDA7D8DAE8C70F3C39133D4D3BBC990 /* Frameworks */,
+				48D4A57841642ACCDBA40F1B57906E84 /* Pods */,
+				EB22B7355C5872D24EF0EEC3896A459B /* Products */,
+				3DA308728A8EFCDD177EA318824CE13C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB3CF2579CE9A7BAF3DF6783FBBFB99 /* Pods-HookMutableDictionary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9004C517782792B71859E8D81C509A9 /* Info.plist */,
+				DFC5C729109875E828C84FD599CA15E3 /* Pods-HookMutableDictionary_Tests.modulemap */,
+				A754295148039CD499DE4321BD05E007 /* Pods-HookMutableDictionary_Tests-acknowledgements.markdown */,
+				C2853273361E68874D1B524D3EE4CA28 /* Pods-HookMutableDictionary_Tests-acknowledgements.plist */,
+				E3BEE412CD55CF5A05FB0A0726584768 /* Pods-HookMutableDictionary_Tests-dummy.m */,
+				EB1F3B02A22AC35E3317B5F6587D19DB /* Pods-HookMutableDictionary_Tests-frameworks.sh */,
+				6032C3585764C295EF4EF5B4C1AF0A2A /* Pods-HookMutableDictionary_Tests-resources.sh */,
+				02EB211F751716807D16CE36D5B94A32 /* Pods-HookMutableDictionary_Tests-umbrella.h */,
+				5BC519CED83D6C80375DAFC3BEAB6707 /* Pods-HookMutableDictionary_Tests.debug.xcconfig */,
+				DC1235D908BE41213B89346438A9E4D4 /* Pods-HookMutableDictionary_Tests.release.xcconfig */,
+			);
+			name = "Pods-HookMutableDictionary_Tests";
+			path = "Target Support Files/Pods-HookMutableDictionary_Tests";
+			sourceTree = "<group>";
+		};
+		B85076FBA724853C7ADD60BA52FA65AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA99A204E2A19537BDAFD1FF8F50A4C6 /* BlockStrongReference.modulemap */,
+				469CE023CF6F7683B1B390F7A0CFB58A /* BlockStrongReference.xcconfig */,
+				E6198711AA222F48AD6F3AF07A61B16C /* BlockStrongReference-dummy.m */,
+				051AD4F9D7CEADBBC9C0619A0B9E6627 /* BlockStrongReference-prefix.pch */,
+				3289A9BC37ED9FAEF679EE8B05D592F0 /* BlockStrongReference-umbrella.h */,
+				A69218C1A245E921D4D077B95F3B1909 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlockStrongReference";
+			sourceTree = "<group>";
+		};
+		BA2974D90485606C28F2A55EA5C605B6 /* HookMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C3232DB16036F74E731B84185737 /* Classes */,
+			);
+			name = HookMutableDictionary;
+			path = HookMutableDictionary;
+			sourceTree = "<group>";
+		};
+		C477039BC6DB37F4418EB9FFD08E841E /* Pods-HookMutableDictionary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F6D88B2D0E405428954AAD002BA5DADC /* Info.plist */,
+				24E4F10C6946D28EEE43481E945829E7 /* Pods-HookMutableDictionary_Example.modulemap */,
+				0E2631F6679B1C053D5A7ED97A5423C2 /* Pods-HookMutableDictionary_Example-acknowledgements.markdown */,
+				394DF07439D6BCD241B8F5AC096E0064 /* Pods-HookMutableDictionary_Example-acknowledgements.plist */,
+				E50520555E464631EC07E3D79B231FBA /* Pods-HookMutableDictionary_Example-dummy.m */,
+				60A25857D8AA5126F43F729B56ECB71F /* Pods-HookMutableDictionary_Example-frameworks.sh */,
+				C410AAE758FE73B2182ED93410151C9C /* Pods-HookMutableDictionary_Example-resources.sh */,
+				E43DE3F4DBB77BB2763BDAF89E64E27F /* Pods-HookMutableDictionary_Example-umbrella.h */,
+				D63BE67B9A03353A237AD2A95CF63833 /* Pods-HookMutableDictionary_Example.debug.xcconfig */,
+				AF773B0C231BC8C86B249B7905AA25CE /* Pods-HookMutableDictionary_Example.release.xcconfig */,
+			);
+			name = "Pods-HookMutableDictionary_Example";
+			path = "Target Support Files/Pods-HookMutableDictionary_Example";
+			sourceTree = "<group>";
+		};
+		C64DAEB55E20800DE758DFCF45A9CB65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				004BE1E0128FB935A732614B87703F92 /* HookMutableDictionary.modulemap */,
+				C92DD88B76A7B982A1CB4F889BD19AD0 /* HookMutableDictionary.xcconfig */,
+				66A53920B736426EBDB163496E19AE61 /* HookMutableDictionary-dummy.m */,
+				A3A9B91A35DC3A2DE2D7E34953EE3D62 /* HookMutableDictionary-prefix.pch */,
+				D3B31140E4E15A035AFEEE88858A806A /* HookMutableDictionary-umbrella.h */,
+				4DD4BF18B30EB93C14C3A91737BEBBC3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HookMutableDictionary";
+			sourceTree = "<group>";
+		};
+		CB3445E94B3587766BFFF35296DE2E5C /* HookMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				BA2974D90485606C28F2A55EA5C605B6 /* HookMutableDictionary */,
+				C64DAEB55E20800DE758DFCF45A9CB65 /* Support Files */,
+			);
+			name = HookMutableDictionary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB22B7355C5872D24EF0EEC3896A459B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2B473FC2463F3771EEFE7D10EA4168 /* BlockStrongReference.framework */,
+				480098D06E0DEE8E0E0BB5E7A0C1E5E9 /* HookMutableDictionary.framework */,
+				9139A336DFC1E28BC0755C1EE72A126F /* Pods_HookMutableDictionary_Example.framework */,
+				4F97FCF4057E80B60B3B7B4110DB2076 /* Pods_HookMutableDictionary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1367212EC1D7BEE2EE46978806796D7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC19AAA441DB754D8B7F31AE710CA776 /* Pods-HookMutableDictionary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457C824855754F119716C032DB352463 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5626DF52E2FF22418FA171C17AB997 /* HookMutableDictionary-umbrella.h in Headers */,
+				07CF68DE15A62341C767973328185FEE /* MutableDictionaryObserver.h in Headers */,
+				ECB3200A24A6D2E737D1991A8F904EE7 /* NSMutableDictionary+HookC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE97E063107502F12F8DD870A33E178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5CA86AC532EFFD89C91C3D9134E3BA /* BlockStrongReference-umbrella.h in Headers */,
+				FB76D2C65967B613CDCCFCD2878A74AA /* BlockStrongReference.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4CA43292D458ABAEAF899BEF31DA3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A68C41BEE53C935369F971E6838DC69 /* Pods-HookMutableDictionary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03F691DCE374702C2A739CAEE22870F4 /* Pods-HookMutableDictionary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1BE576FBFBBE674FEA12ACF4AA5A46 /* Build configuration list for PBXNativeTarget "Pods-HookMutableDictionary_Tests" */;
+			buildPhases = (
+				CA955A69043792AA088FB432DED038AF /* Sources */,
+				23CAE28C49E939D6F8A442D1E5C5B3F7 /* Frameworks */,
+				1367212EC1D7BEE2EE46978806796D7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HookMutableDictionary_Tests";
+			productName = "Pods-HookMutableDictionary_Tests";
+			productReference = 4F97FCF4057E80B60B3B7B4110DB2076 /* Pods_HookMutableDictionary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9378899A33A63DDE272F469EEEF0808D /* Pods-HookMutableDictionary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A9B16C5532F8F1973BB2927869056 /* Build configuration list for PBXNativeTarget "Pods-HookMutableDictionary_Example" */;
+			buildPhases = (
+				9EAF58C4903AECF870FFFD6F7697ED8A /* Sources */,
+				91D033AB7DF88B806D2C69A80CF0A55C /* Frameworks */,
+				FE4CA43292D458ABAEAF899BEF31DA3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F64FA89DF2C88FBB1DCBE0AF78D294 /* PBXTargetDependency */,
+				60419FE7B8A44F38E30E74B7CFBD5E8A /* PBXTargetDependency */,
+			);
+			name = "Pods-HookMutableDictionary_Example";
+			productName = "Pods-HookMutableDictionary_Example";
+			productReference = 9139A336DFC1E28BC0755C1EE72A126F /* Pods_HookMutableDictionary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C661BD3455F84DDF9FFBF3F3A1EBB738 /* BlockStrongReference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1311A64566232F5FB6C7729704F8DA54 /* Build configuration list for PBXNativeTarget "BlockStrongReference" */;
+			buildPhases = (
+				ECEA8647B2E128855C680BFF4EA89B77 /* Sources */,
+				D47D29A03075649458879DDA6BF8ADEB /* Frameworks */,
+				ECE97E063107502F12F8DD870A33E178 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockStrongReference;
+			productName = BlockStrongReference;
+			productReference = EB2B473FC2463F3771EEFE7D10EA4168 /* BlockStrongReference.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDDD23D6E8DE495A00796183140896E2 /* HookMutableDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE730CE7F272197DC48BCCF6DD313A7 /* Build configuration list for PBXNativeTarget "HookMutableDictionary" */;
+			buildPhases = (
+				65BB187677895C347B5BB856E50DED78 /* Sources */,
+				4E96F1825605012C399110A29DDEACF4 /* Frameworks */,
+				457C824855754F119716C032DB352463 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685B69FF38F3551F899A3C163D336696 /* PBXTargetDependency */,
+			);
+			name = HookMutableDictionary;
+			productName = HookMutableDictionary;
+			productReference = 480098D06E0DEE8E0E0BB5E7A0C1E5E9 /* HookMutableDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EB22B7355C5872D24EF0EEC3896A459B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C661BD3455F84DDF9FFBF3F3A1EBB738 /* BlockStrongReference */,
+				CDDD23D6E8DE495A00796183140896E2 /* HookMutableDictionary */,
+				9378899A33A63DDE272F469EEEF0808D /* Pods-HookMutableDictionary_Example */,
+				03F691DCE374702C2A739CAEE22870F4 /* Pods-HookMutableDictionary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65BB187677895C347B5BB856E50DED78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3BBBC49D708BE8DD1B1B875C2F6AEE /* HookMutableDictionary-dummy.m in Sources */,
+				E85A92C90939BA5EF61315415C63A2E5 /* MutableDictionaryObserver.m in Sources */,
+				D4AE999EE542BDA9C7B07EF4A468DEC1 /* NSMutableDictionary+HookC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF58C4903AECF870FFFD6F7697ED8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAFCBB636DC3BF77B46A7ED3A3E106C /* Pods-HookMutableDictionary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA955A69043792AA088FB432DED038AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29EFFC68981132302DF1C2A2CC976CE /* Pods-HookMutableDictionary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEA8647B2E128855C680BFF4EA89B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA00DF74E123FCA526948358DF1709 /* BlockStrongReference-dummy.m in Sources */,
+				54B6FD8966B85711B84AFA28F0C8FFC1 /* BlockStrongReference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60419FE7B8A44F38E30E74B7CFBD5E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HookMutableDictionary;
+			target = CDDD23D6E8DE495A00796183140896E2 /* HookMutableDictionary */;
+			targetProxy = 3A14F3A52FE43D75A1DC2FC2EA3F9EC1 /* PBXContainerItemProxy */;
+		};
+		685B69FF38F3551F899A3C163D336696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockStrongReference;
+			target = C661BD3455F84DDF9FFBF3F3A1EBB738 /* BlockStrongReference */;
+			targetProxy = E5E38433FD9098FFA6F0ABA8EE955AA0 /* PBXContainerItemProxy */;
+		};
+		89F64FA89DF2C88FBB1DCBE0AF78D294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockStrongReference;
+			target = C661BD3455F84DDF9FFBF3F3A1EBB738 /* BlockStrongReference */;
+			targetProxy = 302682C51673D6D1CF41D1F0378FEBB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0450D88CE08E59A4E08DF8CFF24EA386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1235D908BE41213B89346438A9E4D4 /* Pods-HookMutableDictionary_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HookMutableDictionary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookMutableDictionary_Tests/Pods-HookMutableDictionary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HookMutableDictionary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		489C2C201F1AAE46FDA37DF7B698E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92DD88B76A7B982A1CB4F889BD19AD0 /* HookMutableDictionary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HookMutableDictionary/HookMutableDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HookMutableDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HookMutableDictionary/HookMutableDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HookMutableDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69758198BB60615F8E1D6CCD1353F86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC519CED83D6C80375DAFC3BEAB6707 /* Pods-HookMutableDictionary_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HookMutableDictionary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookMutableDictionary_Tests/Pods-HookMutableDictionary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HookMutableDictionary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B83CEAED43A222629C2FAF08176F0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63BE67B9A03353A237AD2A95CF63833 /* Pods-HookMutableDictionary_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HookMutableDictionary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookMutableDictionary_Example/Pods-HookMutableDictionary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HookMutableDictionary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A92FB87401D4BE56611CCB92B5503A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469CE023CF6F7683B1B390F7A0CFB58A /* BlockStrongReference.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlockStrongReference/BlockStrongReference-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockStrongReference/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockStrongReference/BlockStrongReference.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BlockStrongReference;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7BA337EAD4E006D18B4CDF93F4A26F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92DD88B76A7B982A1CB4F889BD19AD0 /* HookMutableDictionary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HookMutableDictionary/HookMutableDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HookMutableDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HookMutableDictionary/HookMutableDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HookMutableDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEE90FF07D9C9EC99E21194AEEEE1460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469CE023CF6F7683B1B390F7A0CFB58A /* BlockStrongReference.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlockStrongReference/BlockStrongReference-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockStrongReference/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockStrongReference/BlockStrongReference.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BlockStrongReference;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF274ECB3F82B539A46A864A0FE45113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF773B0C231BC8C86B249B7905AA25CE /* Pods-HookMutableDictionary_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HookMutableDictionary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookMutableDictionary_Example/Pods-HookMutableDictionary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HookMutableDictionary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1BE576FBFBBE674FEA12ACF4AA5A46 /* Build configuration list for PBXNativeTarget "Pods-HookMutableDictionary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69758198BB60615F8E1D6CCD1353F86C /* Debug */,
+				0450D88CE08E59A4E08DF8CFF24EA386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1311A64566232F5FB6C7729704F8DA54 /* Build configuration list for PBXNativeTarget "BlockStrongReference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A92FB87401D4BE56611CCB92B5503A0 /* Debug */,
+				DEE90FF07D9C9EC99E21194AEEEE1460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE730CE7F272197DC48BCCF6DD313A7 /* Build configuration list for PBXNativeTarget "HookMutableDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BA337EAD4E006D18B4CDF93F4A26F5 /* Debug */,
+				489C2C201F1AAE46FDA37DF7B698E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A9B16C5532F8F1973BB2927869056 /* Build configuration list for PBXNativeTarget "Pods-HookMutableDictionary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B83CEAED43A222629C2FAF08176F0E7 /* Debug */,
+				FF274ECB3F82B539A46A864A0FE45113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

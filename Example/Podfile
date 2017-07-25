@@ -1,4 +1,5 @@
 use_frameworks!
+source 'git@192.168.250.71:ios/cocoapods.git'
 
 target 'HookMutableDictionary_Example' do
   pod 'HookMutableDictionary', :path => '../'
